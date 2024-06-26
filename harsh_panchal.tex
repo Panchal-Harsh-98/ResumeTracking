@@ -1,0 +1,226 @@
+%-------------------------
+% Resume in LateX
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % Clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate PDF is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+% Just in case someone needs a heading that does not need to be in a list
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large Harsh Panchal} & Email: \href{mailto:harshpanchal528@gmail.com}{harshpanchal528@gmail.com}\\
+  \href{https://github.com/Panchal-Harsh-98}{https://github.com/Panchal-Harsh-98} & Mobile: \href{tel:+16479078007}{+1-647-907-8007} \\
+\end{tabular*}
+
+% %-----------PROJECTS-----------------
+% \section{Projects}
+%   \resumeSubHeadingListStart
+%     \resumeSubItem{QuantSoftware Toolkit}
+%       {Open source Python library for financial data analysis and machine learning for finance.}
+%     \resumeSubItem{GitHub Visualization}
+%       {Data visualization of Git log data using D3 to analyze project trends over time.}
+%     \resumeSubItem{Recommendation System}
+%       {Music and movie recommender systems using collaborative filtering on public datasets.}
+%     \resumeSubItem{Mac Setup}
+%       {Book that gives step-by-step instructions on setting up developer environment on macOS.}
+%   \resumeSubHeadingListEnd
+
+
+%
+%--------SKILLS------------
+%\section{Skills}
+%  \resumeSubHeadingListStart
+%    \item{
+%      \textbf{Languages}{: Scala, Python, JavaScript, C++, SQL, Java}
+%      \hfill
+%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
+%    }
+%  \resumeSubHeadingListEnd
+
+\section{Skills}
+ \resumeSubHeadingListStart
+    \resumeSubItem{\textbf{Programming Languages}}{: Java, TypeScript, JavaScript, Bash}
+    \resumeSubItem{\textbf{Cloud Technologies}}{: Azure Kubernetes Service, AWS, GCP}
+    \resumeSubItem{\textbf{Frontend Development}}{: React, React-Router. Redux, Axios, Jest, jQuery, Ajax}
+    \resumeSubItem{\textbf{Backend Technology}}{: Node.js, SQL stored procedure, Web API(REST), GraphQL}
+    \resumeSubItem{\textbf{Databases}}{: MS SQL, PostgreSQL, Redis, MongoDB}
+    \resumeSubItem{\textbf{Testing}}{: Unit and Integration Testing, Selenium}
+    \resumeSubItem{\textbf{Tools}}{: Kiali, Qualys, Burp Suite, Devo, Dynatrace, AEM, Docker, Git, Terraform}
+    \resumeSubItem{\textbf{Testing}}{: Unit and Integration Testing, Selenium}
+    \resumeSubItem{\textbf{DevOps}}{: Flux, GitHub, Terraform}
+ \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+
+% --------Multiple Positions Heading------------
+  %  \resumeSubSubheading
+  %   {Software Engineer I}{Oct 2014 -- Sep 2016}
+  %   \resumeItemListStart
+  %      \resumeItem{Apache Beam}
+  %        {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+  %   \resumeItemListEnd
+
+%-------------------------------------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Manulife}{Waterloo, ON}
+      {Software Engineer}{June 2023 -- Present}
+    \resumeItemListStart
+    \resumeItem{Experienced in developing full stack applications using Node.js and React.}
+    \resumeItem{Proficient in working with MSSQL databases, including schema design, querying and performance tuning}
+    \resumeItem{Collaborated closely with cross functional teams including UI/UX designers, product owners and QA engineers to deliver features that meet stakeholder requirements}
+    \resumeItem{Actively participated in retrospectives to identify opportunities for process improvement, tooling enhancement, and automation within the development lifecycle.}
+    \resumeItem{Identified performance bottlenecks and implemented optimizations in both frontend and backend applications to enhance application performance and scalability}
+    \resumeItem{Resolved complex technical issues through debugging, root cause analysis and effective collaboration with the team}
+    \resumeItem{Conducted POCs to evaluate feasibility and performance of new technologies or architectural patterns, presenting findings and recommendations to technical and non-technical stakeholders.}
+    \resumeItem{Implemented Jenkins pipelines for automating builds, tests and deployments, ensuing efficient software delivery}
+    \resumeItem{Implemented Infrastructure as Code (IaC) using tools like Terraform to provision and manage AKS clusters and associated resources.}
+    \resumeItem{Implemented horizontal pod autoscaling (HPA) and cluster autoscaler to dynamically adjust resources based on application demand, optimizing cost-efficiency and performance.}
+    \resumeItem{Built communication patterns such as RESTful APIs, GraphQL, or message queue using Azue Service Bus for inter-service communication and data synchronization.}
+    \resumeItem{Orchestrated service interactions using API gateways or service meshes to manage traffic, enforce security policies, and monitor communication patterns.}
+    \resumeItem{Deployed and managed containerized applications using Azure Kubernetes Service (AKS), leveraging Kubernetes for orchestration and scaling.}
+    \resumeItem{Communicated technical concepts effectively to peers, contributing to project transperency and understanding}
+    \resumeItem{Engaged in regular knowledge sharing within the team through mentoring, code reviews, and tech talks, fostering a culture of learning and innovation.}
+    \resumeItemListEnd
+      
+    \resumeSubheading
+      {Bank of Montreal}{Toronto, ON}
+      {Software Developer - contract}{Nov 2022 -- Apr 2023}
+    \resumeItemListStart
+    \resumeItem{Collaborated with a group of developers to provide intelligent approval automation, worked on parsers to generate policies by reading infrastructure code}
+    \resumeItem{Used NextJs and AWS-SDK to make calls to AWS APIs and render data associated to AWS resources and manage logging}
+    \resumeItem{Worked on several PoCs for cloud based file management and syncing}
+    \resumeItem{Designed CI/CD workflows, worked on YAML configurations to create tailored pipelines for GitHub Action workflows}
+    \resumeItem{Automated workflows leveraging GitHub hooks and labels}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Conestoga College}{Waterloo, ON}
+      {Assistant E-Learning Courseware Developer}{May 2021 -- Dec 2021}
+    \resumeItemListStart
+    \resumeItem{Worked with a team of content designers and developers to deliver courseware materials}
+    \resumeItem{Designed mutiple custom courses and interactive components using frontend frameworks to aid students acheive success in their academics}
+    \resumeItem{Documented custom design elements and performed quality and feature enhancements in coordination with QAs}
+    \resumeItem{Used GulpJS to automate workflow that involved repetitive tasks for building and deploying applications}
+    \resumeItem{Utilised waterfall method for progress tracking and kanban boards to keep track of backlog}
+    \resumeItemListEnd
+
+      
+    \resumeSubheading
+      {Silverwing Technologies}{Gujarat, India}
+      {Software Developer -- iOS}{Jan 2019 -- Aug 2020}
+    \resumeItemListStart
+    \resumeItem{Developed dynamic and responsive user-interfaces using Swift and React Native}
+    \resumeItem{Worked with multipart data uploads and file management over server using PHP, Fetch API and Axios.}
+    \resumeItem{Implemented and integrated REST APIs and developed business logic multiple application.}
+    \resumeItem{Integrated Google Cloud Services including Firebase, Google Maps API and Google Cloud Messaging.}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+  {Conestoga College}{Kitchener, Canada}
+    {Mobile Solutions Developement}{Aug 2020 -- Dec 2021 }
+  \resumeSubheading
+  {L.J Institute of Engineering and Technology}{Gujarat, India}
+    {Bachelor of Computer Engineering}{Aug 2015 -- Apr 2019}
+\resumeSubHeadingListEnd
+
+
+
+
+
+%-------------------------------------------
+\end{document}
